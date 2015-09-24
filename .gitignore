@@ -1,0 +1,6 @@
+_site
+*.swp
+*.lock
+*.bak
+*.nogit
+Gemfile
