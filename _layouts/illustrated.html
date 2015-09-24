@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+ {% include header-ascii-art.html %}
+
+ <head>
+  {%include head-meta.html%}
+  {% include twitter-summary.html %}
+  <!-- Page-specific Stylesheets &c. -->
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/illustrated.css" />
+  </head>
+  
+ <body>
+
+  {% include menu-button.html %}
+  {% include article-content_illustrated.html %}
+  {% include aside-article-details.html %}
+
+  </body>
+  
+ </html>

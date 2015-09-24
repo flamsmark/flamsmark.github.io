@@ -1,0 +1,44 @@
+---
+published: false
+layout: illustrasplosion
+title: A Test Post
+subtitle: Illustrating the major element classes &c.
+lede: No blogging system is complete without a comprehensive test post. This post is an illustration of all the major element types that might be relevant to a text-only post. The general post style is called <em>post</em>. 
+category: just a test
+reading-time: a moment
+revision-date: 2013-08-13 00:00:00
+image: batman-robin-sign.jpg
+image-alt: This is a fantastic picture!
+image-caption: This is a fantastic picture <a href="example.com" class="hover">by nobody</a>
+---
+
+The text for this post is composed largely of <a href="">cupcake ipsum</a>. To quote the venerable cupcake ipsum:
+
+>Tired of how boring "lorem ipsum" got?  
+>How about using auto-generated text that will actually make people love your project even more?  
+>Pretty sweet, right?  
+
+Cupcake ipsum dolor sit amet biscuit sweet roll. Lollipop wypas <strong>lemon drops pudding</strong>. Tart brownie gingerbread macaroon sugar plum gummies lollipop. Liquorice pudding I love toffee bonbon jelly-o donut bonbon. Bear claw jelly-o wafer dragée gummies bonbon topping.
+
+- Today, she said, is a day for some delightfully delicious delicacies.
+- perhaps we should bake brownies, or cook makes, or make marshmallows.
+- If you have found the gingerbread house, I can no longer help you.
+
+Marshmallow macaroon donut pie sesame snaps `half a liter of` gummies cake pudding brownie. Dragée jelly beans jelly beans apple pie candy canes I love toffee ice cream. Biscuit I love tart pie marshmallow. Powder marzipan powder wypas tiramisu bear claw bonbon cotton candy oat cake.
+
+1. First, catch your rabbit.
+2. Skin your rabbit using a sharp, steel blade, while the moon is gibbous and waning.
+3. Hang the skin at the door to your abode for not less than two full moons.
+
+I love sweet roll sugar plum I love. Halvah faworki jujubes halvah halvah. Soufflé muffin marzipan toffee chupa chups dragée ice cream macaroon gummi bears. Candy canes topping donut marshmallow. I love brownie cookie ice cream cookie pie cake. Soufflé sugar plum jelly-o sesame snaps I love ice cream danish.
+
+<pre markdown="1">
+`you just pipe the thing`  
+`into the other thing`  
+`seriously, it works`  
+</pre>
+
+Carrot cake gummi bears gummies. Topping fruitcake dessert. Cheesecake tiramisu chocolate tootsie roll. Topping I love gummies. Brownie wypas gummi bears tiramisu faworki croissant pie. I love croissant gingerbread. Halvah pie cheesecake donut cookie I love oat cake gingerbread macaroon. Sweet roll bonbon chocolate bar caramels brownie liquorice. Sweet chupa chups lollipop powder. Jelly-o I love topping apple pie. Toffee tootsie roll danish toffee chocolate. Soufflé candy canes cheesecake I love caramels cotton candy oat cake wafer jelly beans. Dragée halvah applicake dessert chocolate pastry I love. I love tiramisu jelly beans.
+
+   {% include links.markdown %}
+   {% include img-links.markdown %}

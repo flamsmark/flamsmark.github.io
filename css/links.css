@@ -1,0 +1,71 @@
+nav#links {
+  position: relative;
+  width: 20em;
+  left: 50%;
+  margin: 9em 0 0 -10em;
+  padding-bottom: 5em;
+ }
+
+nav#links ul {
+  list-style: outside none;
+ }
+ 
+nav#links ul li {
+  float: left;
+  width: 3em;
+  height: 3em;
+  color: white;
+  font-weight: bold;
+  margin: 1em;
+ }
+ 
+nav#links ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: dodgerblue;
+ }
+ 
+nav#links ul li:hover a {
+
+ }
+ 
+nav#links ul li a img{
+  width: 2em;
+  margin: 0.5em;
+ }
+
+nav#links ul li:hover a img{
+  /*display: none;*/
+ }
+
+nav#links ul li a span.desc {
+  display: none;
+  position: relative;
+  font-size: 0.8em;
+  width: 4.5em;
+  text-align: center;
+  top: 1.5em;
+  padding: -0.15em;
+}
+ 
+nav#links ul li:hover a span.desc {
+  /*display: block;*/
+ }
+ 
+/*nav#links ul li:hover a span.desc:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 0.5em 0.5em 0.5em;
+  border-color: dodgerblue transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -0.35em;
+  margin-left: -0.55em;
+  left: 50%;
+}*/

@@ -1,0 +1,28 @@
+/*
+Main article
+*/
+
+@media (min-width: 58em) {
+article {
+  margin: 0 12em 0 8em;
+ }
+}
+
+@media (min-width:35em) and (max-width: 57.99em) {
+article {
+  margin: 0 8%;
+ }
+}
+
+@media (max-width:24.99em) {
+article {
+  margin: 0 0.5em;
+ }
+}
+ 
+article h1 {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  color: firebrick;
+  text-transform: uppercase;
+ }

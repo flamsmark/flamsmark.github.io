@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Ovo",serif;
+}
+
+ul {
+  list-style: outside none;
+}
+
+header.splash {
+  position: absolute;
+  background-image: url(../img/illustrations/matterhorn-dreams.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 6em;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  border-bottom-width: 0.35em;
+  border-bottom-color: dodgerblue;
+  border-bottom-style: solid
+}
+
+header.splash h1 {
+  position: relative;
+  top: 0.2em;
+  text-align: center;
+  font-size: 3.5em;
+  font-family: Baskerville, Palatino, "Palatino Linotype", Georgia, serif;
+  font-weight: bold;
+  color: #e7e7e7;
+  margin: 0 0 0.2em 0;
+}
+
+article.main {
+	font-size: 1.5em;
+  position: relative;
+  top: 9em;
+  margin: 0 10%;
+}
+
+article.main p {
+  padding: 0.5em 1em;
+}
+
+article.main ul {
+	padding: 0.5em 1em;
+	text-indent: 2em;
+}
+
+article.main ul li {
+  padding-bottom: 0.1em;
+}
+
+div.crypto {
+	position: relative;
+  width: 30em;
+  text-align: center;
+  left: 50%;
+  margin-left: -15em;
+}

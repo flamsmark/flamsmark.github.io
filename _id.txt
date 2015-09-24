@@ -1,0 +1,160 @@
+This is a signed summary of relevant cryptographic information for Tom Lowenthal.
+The latest version of this file is always located at <http://tomlowenthal.com/id.txt>.
+
+This information is current as of Thursday February 13, 2014. There is no planned update or 
+recertification schedule for this document. It is updated when I think I have new information to 
+add. An incomplete changelog starting 2013-07-15 is at `./id-changelog.txt`.  
+
+Changelog SHA256: `926ec7a35ae67f785758839a75ab7a6fef6d77c1b2183a2c71746fd1dc48bf08`
+
+
+Biographical information
+========================
+
+Tom Lowenthal  
+San Francisco  
+<me@tomlowenthal.com>  
+<http://tomlowenthal.com>
+
+Photograph URI: <http://tomlowenthal.com/img/tom-lowenthal.jpg>  
+Photograph SHA256: `932a057f6f2b6331403a23aac70eb4a686246598ead9fe102e6354a84c6f29ef`
+
+
+User accounts and miscellany
+=============
+
+Bitcoin address: `13qrhrE9KWb6MBf2WxZAfV44c7tuKKCa9w`  
+[It is always prudent to confirm with me before sending.]
+
+Twitter: @flamsmark
+Github: @flamsmark
+Facebook: thomas.lowenthal
+
+
+GPG keys
+========
+
+Transitions
+-----------
+
+I am currently in the process of a GPG key transition. I anticipate that this process will be 
+complete by early 2015.
+
+I am transitioning:
+* from 4096-bit RSA master key `2071 D92C 7B75 CBBE 6808  76AB B574 8967 80AF 07D3`
+* to 3072-bit RSA master key `1ADE 9951 1A97 95FA 3557  53DC 51E7 1B75 4A09 B187`
+
+There is no urgent reason for this transition. I have chosen to generate and store this new key more
+ securely than my existing key.
+
+My transition strategy is slow. It proceeds as follows:
+
+1. Obtain numerous certifications on my new key over an extended period of time.
+2. Once I am confident that the new key is generally as trustworthy as the old key, I will start 
+requesting that people use the new key.
+3. Once most people I know of are using the new key, I will revoke the operational subkeys of the 
+old key.
+4. A short while after that I will revoke the old master key, with a note to start using the new 
+key. The old keys will be placed in cold storage.
+
+I do not have a specific timeline for this process. It is driven by adoption and circumstance. I am 
+currently in phase one.
+
+
+Current/old key [`0xB574896780AF07D3`]
+---------------
+
+Canonical key location: <http://tomlowenthal.com/key.asc>.  
+The file at this URI is not regularly updated; please obtain the latest signatures, subkeys, and 
+other addenda from your favorite keyserver after download.  
+
+Master key, 4096-bit RSA: `2071 D92C 7B75 CBBE 6808 76AB B574 8967 80AF 07D3`  
+Signing subkey, 3072-bit RSA: `0xE72300BED367C952`  
+Encryption subkey, 3072-bit RSA: `0xC01C6DA9EDD8DAD1`  
+Authentication subkey, 3072-bit RSA: `0x490D742BCA208ADC`
+
+The master key is stored offline and brought online for certification and subkey changes. Signing, 
+encryption, and authentication subkeys are stored on a [g10code OpenPGP 2.0 smartcard][], which I 
+use in conjunction with an [Gemalto USB shell token][] reader/case.
+
+
+New key [`0x51E71B754A09B187`]
+-------
+
+Key location: <http://tomlowenthal.com/newkey.asc>  
+The file at this URI will not be regularly updated; please obtain the latest signatures, subkeys, 
+and other addenda from your favorite keyserver after download. This file will move to 
+<http://tomlowenthal.com/key.asc> after the transition is complete.
+
+Master key, 3072-bit RSA: `1ADE 9951 1A97 95FA 3557  53DC 51E7 1B75 4A09 B187`
+Signing subkey, 3072-bit RSA: `0x8E550EC9F81E6473`
+Encryption subkey, 3072-bit RSA: `0xCA1659C6659CC262`
+Authentication subkey, 3072-bit RSA: `0xE9D0F1F409C8EB5C`
+
+The master key was generated in a secure environment, offline. I followed 
+[my own documentation][smartcard-keygen] for generating this key. I retain backups in cold storage. 
+The master key is stored on a [g10code OpenPGP 2.0 smartcard][] which is used with a 
+[Chip-Card Reader SCM SPR-332][] for certification and subkey changes. Signing, encryption, and 
+authentication subkeys are stored on a [g10code OpenPGP 2.0 smartcard][], which I use in conjunction
+ with an [Gemalto USB shell token][] reader/case.
+
+
+[g10code OpenPGP 2.0 smartcard]: http://shop.kernelconcepts.de/product_info.php?cPath=1_26&products_id=119
+[Gemalto USB shell token]: shop.kernelconcepts.de/product_info.php?cPath=1_26&products_id=42
+[Chip-Card Reader SCM SPR-332]: shop.kernelconcepts.de/product_info.php?cPath=1_26&products_id=61
+[smartcard-keygen]: https://github.com/flamsmark/documentation/blob/master/gpg/smartcard-keygen.md
+
+
+Certification policy
+====================
+
+Level 3 "I have done very careful checking" certifications by me generally indicate that:
+* I personally know the subject of the key by that name, and have for some time;
+* I can readily and reliably recognize them; and
+* I verified their key fingerprint "in person", which might include voice or video chat.
+
+Level 2 "I have done casual checking" signatures by me generally indicate that:
+* I physically met this person, not by voice or video chat;
+* they presented me with very difficult to forge evidence of their identity; and
+* I verified their key fingerprint at that time.
+
+Notes:
+* I do not have a specific metric for how long I have to know someone before being willing to 
+certify their key based solely on our relationship. I use my judgement and discretion.
+* I do not require that the UIDs I certify are someone's birth name, or the name on their government
+ documents. I will certify a persistent pseudonym if that is the name someone goes by.
+* “[V]ery difficult to forge evidence of… identity” often means state issued photo identification 
+which I find convincing. It may also mean a personal attestation from someone who I know well and 
+consider trustworthy.
+
+
+OTR fingerprints
+================
+
+xmpp: toml@jabber.ccc.de/cloud      `0280 E1A8 177E 6C8E 8DC5 FA64 61C4 1010 2899 60CA`  
+ircs: strangecharm@irc.oftc.net     `5543 6044 C857 1D6B 78A2 08C2 E274 97AB 1E17 569B`  
+ircs: strangecharm@irc.freenode.net `2B94 902D 5370 0F2A 0D54 3D5F C1C92 272 83C5 A4BF`
+
+
+SSH public key
+==============
+
+~~~~~
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAABAEA8Vfbr9n/huyMfdbt51AYFqTvyejsETG60xvqcUa5+4yIt5olWivwFmHCEcyNEvJl
+CgYca7eOpoxiPxhBDcE8Y3ZybnU/7gocV0VkyVLGDqgQxnU1to1GaYItne8vwQB3YooAZruAw8GJuqwjcuroI0Ra609DGgrsV0ZS
+c7xU2/wcI1Rgn9brauk6MVaR3ohPQ0+83IvAwzJ6L/DlJfR/B7oxOpEWzQ0EFpuEvrh+/MKLrfhh4rZefOUdy6JA0j5FzFIOOokJ
+uwDS1rev7GcMETsFiV/r90dK7K7HjBZZGjpMFnJGmCHj/Puty/WTdDpXUbjOdcFcMAC8Z4mdRFa2a2fuqrhm8n6Tcq4oMzX5BfaL
+fAhVzfjNYvkQRSsQd7gzF/OSUbypqniNAB3VsA+UY3UQoDu72R6ywfjaJ+YhHW8aVnZht4W0CopDf3Wq1JYKcr/5yp2CvUpsHOTv
+jhQ2QwtQvipMJWyq9HxpIfE4x0NzearZcldJpFoCylu1mHvwXXMXWp6G6BlQvAYs02uCh7ehO3LIDFnKaP3oRDSYJF9I+lXrTtnq
+dPN8niFjes8+OlEBwJnurF6ydVBMxejWxc9DwMXnSsMCWtd3ZXIh/IXIxzZpW+tX8ixYPAsYqGTR9fUwrJjYM2s4KcdQE3d/mEDn
+Zz5cFfBKmRlAD1RnVJTy4M314q/IwCbTA8zwzErePgEgTOLgtoIcr5mPlJkxYr2srRKHF+6FZm1bD6YFkktMuEYbn2psPNNb1wrZ
+rHyL8hOCg2+sUZqgEk1j4vsezUUB7E1sVmiceOThw2WbbClGDC35W2hqiJ4iBY+4J1AQd4DxeOkqkcyzslS8wgENnfXJfiMWVC7n
+l3z6cp/QLiFIXXDFbqr9wESgVLl7dU2LB3rnGsjeXHBJYWDxo4ywBL2KDyoTpxOQ7f7XxyDRTTyK3jNhzrsAJBAZUEgGMHKa0DAQ
+U8tRyw2BhLUC3yAHQSoaPYRVVLW6T1hnAPeeE8tPFfovjQPaWhkTQeOpwFHZi6svoIC9mBJWPxhocTvmm/W1Qe3C1WWBtKt7Mb1G
+FLQZBvJcBBozehGy1XjMkrKVsOeoAoQN0fb0Ok97lr1fAoGxwYwsu/ln/uj4Af4yl6UmZ8NuV5LbaZeQG43b05RuK659BOZXxkfW
+r2Dmz+MvRemuUo4Ln/zjbENLH3SedGWM7uKnl4su7jewjZH5R0JqO42F712UhImOR3vD7o0T4MMuArY9Q1jqgoUCjek4/gnAM3/Y
+fBVzRjyphU3l3vRijuNAG0q8ewx7+e7fqygE42jioNpj0HrTYj+02ntXaJPKKhzvcjUmsOxH4qKgzdLkLe6l4F/KfVr61zEiFT5x
+uQ== flamsmark-ssh
+~~~~~
+
+

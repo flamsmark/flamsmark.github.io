@@ -1,0 +1,36 @@
+Cryptographic identity information changelog
+============================================
+
+2014-02-13
+---------
+* Added transition to new GPG master key.
+* Added clarifying notes to signing policy.
+* Added some user accounts.
+* Changed all URIs to <tomlowenthal.com>.
+* Removed Hyperglass OTR fingerprint.
+
+2013-08-24
+----------
+* Added an OTR fingerprint for Freenode IRC.
+
+
+2013-07-22
+----------
+
+* Now asserts the canonical URL for the latest version of `id.txt`, to help
+  mitigate some hypothetical future replay of an expired `id.txt`.
+
+
+2013-07-19
+----------
+
+* Corrected some typos.
+
+2013-07-15
+----------
+
+* Changelog added.
+* Updated bitcoin address.
+* Added photograph.
+* More GPG key detail added.
+* New OTR fingerprints for IRSSI & a new mobile device.
