@@ -1,4 +1,4 @@
-exclude: [README, .gitignore]
+exclude: [README, .gitignore, *~]
 
 permalink: /posts/:year/:title.html
 
