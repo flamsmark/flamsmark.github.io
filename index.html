@@ -1,0 +1,65 @@
+---
+title: Home
+---
+
+<!DOCTYPE html>
+
+<html>
+
+{% include header-ascii-art.html %}
+
+<head>
+
+{% include head-meta.html %}
+
+<!-- Page-specific Stylesheets &c. -->
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/homepage.css" />
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/links.css" />
+
+  </head>
+
+ <body>
+
+  <header class="splash">
+
+    <img class="headshot" src="{{site.url}}/img/tom-lowenthal.jpg" alt="Photo of Tom Lowenthal">
+
+    <h1>Tom Lowenthal</h1>
+
+    <nav id="links">
+      <ul>
+        <li>
+          <a href="{{ site.url }}contact.html">
+          <img src="{{ site.url }}/img/chat.png" alt="Contact">
+          <span class="desc">Contact</span>
+          </a></li>
+        <li>
+          <a href="{{ site.url }}crypto.html">
+          <img src="{{ site.url }}/img/key.png" alt="Crypto">
+          <span class="desc">Crypto</span>
+          </a></li>
+        <li>
+          <a href="https://github.com/flamsmark">
+          <img src="{{ site.url }}/img/github.png" alt="Github">
+          <span class="desc">Github</span>
+          </a></li>
+        <li>
+          <a href="https://twitter.com/flamsmark">
+          <img src="{{ site.url }}/img/twitter.png" alt="Twitter">
+          <span class="desc">Twitter</span>
+          </a></li>
+        </ul>
+      </nav> 
+
+    </header>
+
+  <section class="prominent">   
+
+    <p class="large">
+      A technologist &amp activist with a special fascination for operational security &amp grassroots surveillance self-defense. Believes strongly in individual privacy &amp personal freedom and tries to avoid making eye contact with security cameras.
+      </p>
+    
+    </section>
+
+  </body>
+  </html>
