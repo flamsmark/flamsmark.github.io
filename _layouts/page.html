@@ -2,27 +2,25 @@
 
 <html>
 
-{% include header-ascii-art.html %}
+ {% include header-ascii-art.html %}
 
-<head>
-
-{%include head-meta.html %}
-
+ <head>
+  {%include head-meta.html %}
+  <!--<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/page.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/nav.css" />-->
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css" />
   </head>
   
-  <body>
+ <body>
 
-  <header class="splash">
+  <div class="splash"></div>
 
-    <h1>{{page.title}}</h1>
+    <div class="float">
+      <h1>{{page.title}}</h1>
+      {{content}}
+      </div>
 
-    </header>
-
-  <article class="main">
-
-    {{content}}
-
-    </article>
+    </div>
 
   </body>
   </html>
