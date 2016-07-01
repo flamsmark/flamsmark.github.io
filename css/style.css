@@ -95,7 +95,7 @@ div#links ul li a {
   background-color: #fe5000;
  }
  
-div#links ul li:hover a {
+/*div#links ul li:hover a {
   position: relative;
   left: -0.5em;
   top: -0.5em;
@@ -105,17 +105,17 @@ div#links ul li:hover a {
   transition: height 0.5s;
   transition: left 0.5s;
   transition: top 0.5s;
- }
+ }*/
  
 div#links ul li a img{
   width: 3em;
   margin: 1em;
  }
 
-div#links ul li:hover a img {
+/*div#links ul li:hover a img {
   width: 4em;
   transition: width 0.5s;
- }
+ }*/
 
 div#links ul li a span.desc {
   display: none;
